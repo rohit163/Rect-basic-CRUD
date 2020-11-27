@@ -45,7 +45,7 @@ class List extends Component {
           data={this.state.data}
         />
         <hr />
-        <p>list of transactions</p>
+        <p>list of Data</p>
         <table>
           <tbody>
             {this.state.data.map((item, index) => {
